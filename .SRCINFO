@@ -1,0 +1,27 @@
+pkgbase = goland
+	pkgdesc = Clever Go IDE by JetBrains
+	pkgver = 2021.3.1b213.6461.83
+	pkgrel = 1
+	url = https://www.jetbrains.com/go/
+	arch = x86_64
+	arch = i686
+	license = custom:jetbrains
+	depends = glib2
+	depends = python
+	options = !strip
+	source = https://download.jetbrains.com/go/goland-2021.3.3.tar.gz
+	source = jetbrains-goland.desktop
+	source = LICENSE
+	b2sums = 8e92a7b426928168adf27f36858f4542d8fcc2e7f1632d6e70157293f07bc90e52c2dad0c903e5da39dd2c88a624a6f96075f9226c49ff747fb29f3dc6ac75cd
+	b2sums = a9e43cb1b2323a8f4661c160a5aa14637e8a740533d222fa8db4cc6a0ea663d952ba3ba8c624a0aaf3a6c0d6a43f0bcc26fa5de488036f2d161dde8f9ef61125
+	b2sums = dadaf0e67b598aa7a7a4bf8644943a7ee8ebf4412abb17cd307f5989e36caf9d0db529a0e717a9df5d9537b10c4b13e814b955ada6f0d445913c812b63804e77
+
+pkgname = goland
+	optdepends = goland-jre: JetBrains custom Java Runtime (Recommended)
+	optdepends = java-runtime: JRE - Required if goland-jre is not installed
+	optdepends = gnome-keyring: save login/deployment credentials safely
+	optdepends = java-openjfx: rendering Markdown files
+
+pkgname = goland-jre
+	pkgdesc = JBR (JetBrains Runtime) a patched JRE
+	url = https://confluence.jetbrains.com/display/JBR/JetBrains+Runtime

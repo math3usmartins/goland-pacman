@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Goland
+Icon=goland
+Exec="/opt/goland/bin/goland.sh" %f
+Comment=Clever Go IDE by JetBrains
+Categories=Development;IDE;
+Terminal=false
+StartupWMClass=jetbrains-goland
